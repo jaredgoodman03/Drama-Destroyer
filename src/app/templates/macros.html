@@ -1,0 +1,7 @@
+{% macro nav_link(endpoint, name) %}
+{% if request.endpoint.endswith(endpoint) %}
+	<a href="{{ url_for(endpoint) }}" class="button"  style="background-color:#aa3300;" >{{name}}</a>
+{% else %}
+	<a href="{{ url_for(endpoint) }}" class="button">{{name}}</a>
+{% endif %}
+{% endmacro %}

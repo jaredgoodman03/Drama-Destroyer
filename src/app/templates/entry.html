@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<form method="post">
+		<p>
+			<h3>Your name</h3>
+			Make sure to enter your full name.<br>
+			<input name = "name">
+			<p style="color: #ff0000;">{{ error }}</p>
+		</p>
+		<p>
+			<h3>Your TOLO rankings</h3>
+			Enter a list of full names, one on each line.<br>
+			<textarea name = "ranking"></textarea>
+		</p>
+		<p><input type="submit" value="Submit" class="button"></p>
+	</form>
+{% endblock %}

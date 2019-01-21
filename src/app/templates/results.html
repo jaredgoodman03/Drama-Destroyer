@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+	<ul>
+		{% for couple in couples %}
+			<li>{{ couple.first }} is going with {{ couple.second }}</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

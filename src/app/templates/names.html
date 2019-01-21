@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+Here is a list of all the people who have signed up so far:
+<ul>
+	{% for name in names %}
+		<li>{{name}}</li>
+	{% endfor %}
+</ul>
+
+{% endblock %}
