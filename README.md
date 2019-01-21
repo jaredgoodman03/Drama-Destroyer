@@ -9,12 +9,16 @@ ever face rejection.
 
 The Drama Destroyer: *Where computer science meets teenage horniness™*
 
-##FAQ
-###Q: Why did you make this?
+## FAQ
+
+### Q: Why did you make this?
+
 A: Why didn't *YOU* make this?
 
-###Q: How does it work?
+### Q: How does it work?
+
 A: It's on Github, read that
 
-###Q: I'm a future college that Googled you and found this. Is this a good use of your time?
+### Q: I'm a future college that Googled you and found this. Is this a good use of your time?
+
 A: Yes, it's a good learning experience.
